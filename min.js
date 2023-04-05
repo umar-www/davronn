@@ -10,7 +10,7 @@ const inputs = document.querySelector(".inputs");
 
 btn.addEventListener("click", () => {
   if (title.value == "") {
-    alert("Ustoz siz kitob nonini kiritmadiz-ku????");
+    alert("you must write here...");
   } else {
     // start fullBtn ==============================
     const fullBtn = document.createElement("div");
@@ -24,13 +24,13 @@ btn.addEventListener("click", () => {
     const forBtn = document.createElement("div");
     // forBtn.classList.add("d-flex")
     const remove = document.createElement("button");
-    remove.innerHTML = `<i class="bx bx-trash"></i>`;
+    remove.innerHTML = `⛔`;
     const edit = document.createElement("button");
-    edit.innerHTML = `<i class="bx bxs-edit"></i>`;
+    edit.innerHTML = `✍🏼`;
     const check = document.createElement("button");
   
-    check.innerHTML = `<i class='bx bx-check-circle'></i>`;
-    forBtn.s;
+    check.innerHTML = `✅`;
+    forBtn.opacit;
     forBtn.append(check, remove, edit);
 
     fullBtn.appendChild(forBtn);
@@ -44,7 +44,7 @@ btn.addEventListener("click", () => {
     });
     check.addEventListener("click", ()=>{
     
-    newTitle.classList.add("a")
+    newTitle.classList.add("text1")
     
     
     });

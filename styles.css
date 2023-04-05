@@ -112,23 +112,10 @@ button {
   right: 0;
   background-color: aqua;
 }
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 70%;
-  background-color: white;
-  padding: 6rem;
-  border-radius: 5px;
-  box-shadow: 0.3rem 5rem rgba(0, 0, 0, 0.3);
-  z-index: 10;
-}
-
 .edit {
   display: none;
 } 
-s{
+.opacit{
   font-size: 24px ;
   font-weight: 600;
   color: aquamarine;
@@ -142,6 +129,18 @@ button{
   gap: 30px;
   padding: 4px;
 }
-.a{
+.text1{
   text-decoration: line-through;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0.3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
 }
